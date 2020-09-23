@@ -4,9 +4,14 @@
   border: 0;
 }
 
+body {
+  overflow-x: hidden;
+}
+
 header {
   background-color: rgb(206, 206, 206);
   padding-top: 10px;
+  width: 100vw;
 }
 
 header h1 {
@@ -17,15 +22,17 @@ nav {
   display: flex;
 }
 
-a {
+header a {
   border: 1px solid black;
-  padding: 4px;
+  padding: 5px;
   margin: 10px;
+  margin-right: 0;
+  margin-left: 25px;
   background-color: white;
   color: black;
 }
 
-a:hover {
+header a:hover {
   background-color: rgb(163, 163, 163);
 }
 
@@ -35,7 +42,6 @@ article {
 }
 
 #om-mig {
-  width: 100vw;
   display: flex;
   justify-content: space-between;
   flex-wrap: wrap;
@@ -43,16 +49,40 @@ article {
 
 #om-mig article {
   display: block;
-  width: 40vw;
+  width: 65vw;
+  justify-content: flex-start;
 }
 
 #bild-pa-mig {
-  width: 40vw;
+  width: 250px;
   margin: 30px;
 
   justify-content: flex-end;
 }
 
+#gaming {
+  width: 90vw;
+}
+
 footer {
   background-color: rgb(206, 206, 206);
+  width: 100vw;
+}
+
+#tiktok {
+  width: 100px;
+}
+
+#twitter {
+  width: 65px;
+}
+
+footer nav {
+  display: flex;
+  justify-content: flex-start;
+  align-items: center;
+}
+
+#footerKontakt {
+  display: flex;
 }
