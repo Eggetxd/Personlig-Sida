@@ -20,6 +20,7 @@ header h1 {
 
 nav {
   display: flex;
+  flex-wrap: wrap;
 }
 
 header a {
@@ -37,8 +38,13 @@ header a:hover {
 }
 
 article {
-  padding: 30px;
-  padding-right: 0;
+  display: flex;
+  margin: 30px;
+  flex-wrap: wrap;
+}
+
+p {
+  margin-bottom: 20px;
 }
 
 #om-mig {
@@ -60,10 +66,6 @@ article {
   justify-content: flex-end;
 }
 
-#gaming {
-  width: 90vw;
-}
-
 footer {
   background-color: rgb(206, 206, 206);
   width: 100vw;
@@ -77,6 +79,33 @@ footer {
   width: 65px;
 }
 
+#pogchamp {
+  display: block;
+}
+
+#pogchampImg {
+  width: 250px;
+}
+
+#schema {
+  margin: 30px;
+  margin-left: 5vw;
+  width: 90vw;
+}
+
+footer {
+  padding-bottom: 1px;
+}
+
+footer p {
+  margin: 0px;
+}
+
+footer h3 {
+  width: 100vw;
+  padding-top: 30px;
+}
+
 footer nav {
   display: flex;
   justify-content: flex-start;
@@ -85,4 +114,6 @@ footer nav {
 
 #footerKontakt {
   display: flex;
+  flex-wrap: wrap;
+  align-items: center;
 }
