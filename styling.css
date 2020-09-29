@@ -113,8 +113,13 @@ footer nav {
   align-items: center;
 }
 
+footer div {
+  width: 170px;
+}
+
 #kontakt {
   display: flex;
   flex-wrap: wrap;
   align-items: center;
+  width: 100vw;
 }
